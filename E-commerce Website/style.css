@@ -454,6 +454,22 @@ header li>a{
       height: 46px;
       align-items: center;
     }
+    .dpt-menu .has-child:hover ul{
+      display: block;
+    }
+
+    .dpt-menu .has-child li a:hover{
+      text-decoration: underline;
+    }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -650,7 +666,61 @@ header li>a{
       border-bottom: 1px solid var(--border-color);
     }
 
+    .dpt-menu .has-child>ul,.dpt-menu .mega{
+      position: absolute ;
+      top:0;
+      left: var(--percent100);
+      width: var(--percent100);
+      height: auto;
+      min-height: var(--percent100);
+      padding: 1.5em;
+      line-height: 2.5em;
+      border: 1px solid var(--border-color);
+      border-top: 0;
+      display:none ;
 
+      background-position: right bottom;
+      background-repeat: no-repeat;
+      background-size: auto;
+
+    }
+
+
+
+    /* 
+    man-https://images.pexels.com/photos/1342609/pexels-photo-1342609.jpeg?auto=compress&cs=tinysrgb&w=600
+    electricity-https://images.pexels.com/photos/3784551/pexels-photo-3784551.jpeg?auto=compress&cs=tinysrgb&w=600
+    helth- https://images.pexels.com/photos/3825586/pexels-photo-3825586.jpeg?auto=compress&cs=tinysrgb&w=600
+    pet- https://images.pexels.com/photos/15213637/pexels-photo-15213637.jpeg?auto=compress&cs=tinysrgb&w=600
+    sports-https://images.pexels.com/photos/2834914/pexels-photo-2834914.jpeg?auto=compress&cs=tinysrgb&w=600
+    girl -- https://images.pexels.com/photos/884979/pexels-photo-884979.jpeg?auto=compress&cs=tinysrgb&w=600
+    girl -- https://images.pexels.com/photos/2040889/pexels-photo-2040889.jpeg?auto=compress&cs=tinysrgb&w=600
+    shoes-- https://images.pexels.com/photos/2040889/pexels-photo-2040889.jpeg?auto=compress&cs=tinysrgb&w=600
+    shoes-- https://images.pexels.com/photos/12725050/pexels-photo-12725050.jpeg?auto=compress&cs=tinysrgb&w=600
+    house-- https://images.pexels.com/photos/2253916/pexels-photo-2253916.jpeg?auto=compress&cs=tinysrgb&w=600
+
+
+    */
+    .dpt-menu .beauty ul{
+      background-image: url(https://images.pexels.com/photos/3985331/pexels-photo-3985331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+      background-size: cover;
+      background-position: center;
+    }
+    .dpt-menu .electronic ul{
+      background-image: url(https://images.pexels.com/photos/3784551/pexels-photo-3784551.jpeg?auto=compress&cs=tinysrgb&w=600);
+      background-size: cover;
+      background-position: center;
+    }
+    .dpt-menu .fashion ul{
+      background-image: url(https://images.pexels.com/photos/884979/pexels-photo-884979.jpeg?auto=compress&cs=tinysrgb&w=600);
+      background-size: cover;
+      background-position: center;
+    }
+    .dpt-menu .homekit {
+      background-image: url(https://images.pexels.com/photos/2253916/pexels-photo-2253916.jpeg?auto=compress&cs=tinysrgb&w=600);
+      background-size: cover;
+      background-position: center;
+    }
 
 
 
