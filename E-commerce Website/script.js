@@ -6,13 +6,13 @@ function copyMenu() {
     var dptPlace = document.querySelector(".departments")
     dptPlace.innerHTML = dptCategory.innerHTML
     //copy inside nave to nav
-    var mainNav = document.querySelector(".header-nav nav")
+    var mainNav = document.querySelectorAll('.header-nav nav')
     var navPlace = document.querySelector(".off-canves nav")
     navPlace.innerHTML = mainNav.innerHTML
 
     // copy .header-nav .wrapper to .thetop-nav
-    var topNav = document.querySelector(".header-top")
+    var topNav = document.querySelector(".header-top .wrapper")
     var topPlase = document.querySelector(".off-canvas .thetop-nav")
-    topPlase.innerHTML= topNav.innerHTML;
+    topPlase.innerHTML= topNav.innerHTML
 }
 copyMenu()
